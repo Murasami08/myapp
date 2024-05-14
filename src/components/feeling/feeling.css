@@ -1,0 +1,30 @@
+.feeling__block {
+    display: grid;
+    grid-template-areas: 
+                            "a a b c"
+                            "d e e v";
+    gap: 20px;
+}
+.feeling__img1 {
+    grid-area: a;    
+}
+.feeling__img2 {
+    grid-area: b;
+}
+.feeling__img3 {
+    grid-area: c;
+}
+.feeling__img4 {
+    grid-area: d;    
+    
+}
+.feeling__img5 {
+    grid-area: e;
+}
+.feeling__img6 {
+    grid-area: v;
+}
+
+.last{
+    margin-bottom: 200px;
+}

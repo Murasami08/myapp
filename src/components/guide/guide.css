@@ -1,0 +1,36 @@
+.guide {
+    padding: 100px 0;
+}
+.guide__container {
+    display: flex;
+    justify-content: flex-end;
+}
+.guide__block {
+    position: relative;
+}
+.guide__content{
+    margin-left: auto;
+    padding: 64px 0;
+    max-width: 580px;
+    width: 100%;
+}
+.guide__img {
+    position: absolute;
+}
+.guide__img-back{
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.guide__img-front{
+    top: 125px;
+    left: 130px;
+    z-index: 2;
+}
+
+.guide__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 27px;
+}

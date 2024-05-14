@@ -1,0 +1,63 @@
+.blog{
+    background-color: #F3F5F4;
+}
+.blog__cards {
+    display: grid;
+    grid-template-columns: 580px 580px;
+    column-gap: 20px;
+    row-gap: 24px;
+}
+.blog__card {
+    display: flex;
+    align-items: center;
+    background-color: #FDFDFD;
+    padding: 16px;
+    border-radius: 10px;
+}
+.blog__img {
+    margin-right: 24px;
+}
+.blog__content {
+    padding: 16px 0;
+}
+.blog__sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;    
+    color: #18121E;
+    margin-bottom: 24px;
+}
+.blog__text {
+    overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;    
+    color: #18121E;
+}
+.blog__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog__lend{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+}
+.blog__data {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;    
+    color: #F2BE22;
+}
+.blog__link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;    
+    color: #1A3E3E;
+}

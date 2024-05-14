@@ -1,0 +1,53 @@
+.tour {
+    background-color: #F3F5F4;
+}
+.tour__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tour__blcok {
+    max-width: 580px;
+    width: 100%;
+}
+.tour__lead {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 27px;
+}
+.tour__item {
+    padding-left: 65px;
+    margin-bottom: 40px;
+    background-image: url("../../img/team.png");
+    background-size: 50px 50px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.tour__security{
+    background-image: url("../../img/save.png");
+}
+
+.tour__price{
+    background-image: url("../../img/price.png");
+}
+
+.tour__sub-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px; 
+}
+.tour__text {
+    max-width: 514px;
+    font-size: 14px;
+    font-weight: 400;   
+}
+
+.tour__imgs {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    gap: 10px;
+}

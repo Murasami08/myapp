@@ -1,0 +1,45 @@
+
+.search__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 2%;
+    color: #FDFDFD;
+    margin-bottom: 20px;
+    font-family: "Next Art", serif;
+}
+.search__block {
+    padding: 40px;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.search__form {
+    display: flex;
+    align-items: self-start;
+}
+
+.search__list {
+    cursor: pointer;
+    width: 270px;
+    padding: 14px 16px;
+    margin-right: 24px;
+    border: 1px solid #FDFDFD;
+    color: #FDFDFD;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    background: none;
+
+}
+.search__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FDFDFD;
+}
+.search__btn {
+    color: #1A3E3E;
+    background-color: #FDFDFD;
+    font-weight: 700;
+}
